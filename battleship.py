@@ -25,7 +25,6 @@ print ship_col
 guess_row = int(raw_input("Guess Row: "))
 guess_col = int(raw_input("Guess Col: "))
 
-# Write your code below!
 def guess(g):
 	if guess_row == ship_row and guess_col == ship_col:
 		print "Congratulations! You sank my battleship!"
